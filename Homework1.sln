@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAnalysisService", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerationFormsClient", "PasswordGenerationFormsClient\PasswordGenerationFormsClient.csproj", "{EF93C981-C6FF-4C9A-B52F-CD1514C3C7AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordGenerationFormsWebClient", "PasswordGenerationFormsWebClient\PasswordGenerationFormsWebClient.csproj", "{A6BCD328-EF68-40AD-B235-0D6EA7AA5DA9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F2D1921A-8987-4502-806B-3FB680F90E36} = {F2D1921A-8987-4502-806B-3FB680F90E36}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{EF93C981-C6FF-4C9A-B52F-CD1514C3C7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF93C981-C6FF-4C9A-B52F-CD1514C3C7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF93C981-C6FF-4C9A-B52F-CD1514C3C7AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BCD328-EF68-40AD-B235-0D6EA7AA5DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BCD328-EF68-40AD-B235-0D6EA7AA5DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BCD328-EF68-40AD-B235-0D6EA7AA5DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BCD328-EF68-40AD-B235-0D6EA7AA5DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

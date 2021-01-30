@@ -39,8 +39,9 @@ namespace StringAnalysisService
 
         public int VowelCount(string word)
         {
+            string lowerWord = word.ToLower();
             int vowelCount = 0;
-            foreach (char letter in word)
+            foreach (char letter in lowerWord)
             {
                 if (vowels.Contains(letter))
                 {
