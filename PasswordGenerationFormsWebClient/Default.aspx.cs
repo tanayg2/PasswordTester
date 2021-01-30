@@ -32,12 +32,14 @@ namespace PasswordGenerationFormsWebClient
 
             try
             {
+                //Update labels
                 vowelCtOutLbl.Text = numVowels.ToString();
                 upperCtOutLbl.Text = numUpper.ToString();
                 reverseOutLbl.Text = reverseWord;
             }
             catch (Exception ex)
             {
+                //If exception is thrown, write to hidden error label, allowing service to continue being used
                 ErrorLbl.Text = ex.ToString();
             }
         }
